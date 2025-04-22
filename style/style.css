@@ -33,6 +33,24 @@ section#telefone{
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+section#redes{
+    text-align: right;
+}
+
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.450);
+    transition:transform 0.06s, border .1s;
+}
+
+section#redes > a > img{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
 
 iframe#tela{
     position: relative;
